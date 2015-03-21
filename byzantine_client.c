@@ -95,6 +95,8 @@ void GetTheOrdersOthersHaveGot()
 					//received order from 
 					ordersFromPeers[j]=result_2->orderValue;
 					fprintf(stderr,"Data received node with IP:%s and the order is:%d\n",nodeIPs[i],result_2->orderValue);
+				        j++; 
+					
 				}
 				
 			}	
